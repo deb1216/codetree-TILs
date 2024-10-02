@@ -9,6 +9,8 @@ int main() {
         for (int j=0; j<=i; j++) {
             printf("%c", cnt);
             cnt++;
+            if (cnt>'Z')
+                cnt='A';
         }
         printf("\n");
     }
