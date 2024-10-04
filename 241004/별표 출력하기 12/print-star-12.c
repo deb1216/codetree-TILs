@@ -9,7 +9,7 @@ int main() {
             if (i==0 || j%2==1 && j>=i)
                 printf("* ");
             else
-                printf(". ");
+                printf("  ");
         }
         printf("\n");
     }
