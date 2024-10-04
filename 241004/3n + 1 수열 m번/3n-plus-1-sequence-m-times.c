@@ -14,7 +14,7 @@ int main() {
             else
                 n=3*n+1;
         }
-        printf("%d",cnt);
+        printf("%d \n",cnt);
     }
     return 0;
 }
